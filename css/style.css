@@ -1,0 +1,22 @@
+body {
+	background-color: slategrey;
+}
+
+.card{
+	width: 400px;
+	margin: 50px auto;
+	display: block;
+}
+
+.wrap{
+	margin-top: 20px;
+}
+
+.form-group input{
+	background-color: black;
+}
+
+
+.form-group input::placeholder{
+	color: rgb(139, 6, 28);
+}
