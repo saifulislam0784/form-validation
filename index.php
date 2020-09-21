@@ -31,6 +31,13 @@
 
          $cell_len = strlen($phone);
 
+         echo $file_name = $_FILES['photo']['name'];
+         echo $file_size = $_FILES['photo']['size'];
+         echo $file_type = $_FILES['photo']['type'];
+         echo $file_tmp = $_FILES['photo']['tmp_name'];
+
+         move_uploaded_file($file_tmp, 'img/' . $file_name);
+
 
         /**
          * empty value cheque
